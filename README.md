@@ -1,5 +1,5 @@
 # ePortfolio
-My ePortfolio, as an M.Sc. Engineering student in Information Technology at KTH. This contains projects from my university to highlight what I have learnt and created.
+This is my ePortfolio, as an M.Sc. Engineering student in Information Technology at KTH. This contains projects from my university to highlight what I have learnt and created.
 
 **Contact:** ckaur@kth.se
 
