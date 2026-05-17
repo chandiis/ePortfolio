@@ -10,7 +10,7 @@ This is my ePortfolio, as an M.Sc. Engineering student in Information Technology
 This project focuses on designing and implementing a traffic light control system using the STM32L476RG microcontroller and a Traffic Light Shield. The project was done in groups, as part of the course IS1300 at KTH Royal Institute of Technology.
 
 **Source Code:**  
-The complete project source code is available in the file `PRO1_Chandadeep_Zunjee.zip`. Download and extract the ZIP file to access the code and project files. To view the code on the browser, simply click on the folder `PRO1_Chhandadeep_Zunjee`. 
+The complete project source code is available in the file `PRO1_Chandadeep_Zunjee.zip`. Download and extract the ZIP file to access the code and project files. To view the code on the browser, simply click on the folder `PRO1_Chandadeep_Zunjee`. 
 
 ## 2. Mini Project 
 **Description:**
