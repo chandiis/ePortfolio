@@ -1,0 +1,15 @@
+/*
+ * functions.h
+ *
+ *  Created on: Dec 2, 2025
+ *      Author: kaur_
+ */
+
+#ifndef INC_FUNCTIONS_H_
+#define INC_FUNCTIONS_H_
+#include <stdint.h>
+
+void ShiftReg_SendBytes(uint8_t data[], uint16_t length);
+void initialization();
+
+#endif /* INC_FUNCTIONS_H_ */

@@ -1,0 +1,36 @@
+/*
+ * structs.h
+ *
+ *  Created on: 8 Dec 2025
+ *      Author: kaur_
+ */
+
+#ifndef INC_LEDS_H_
+#define INC_LEDS_H_
+#include <stdint.h>
+
+typedef struct defLED{
+	uint8_t shift_reg;	//Shift register 1, 2 or 3
+	uint8_t bit;		//bits to shift with
+} defLED;
+
+extern const defLED TL1_Red;      	//LED1 → 00000010
+extern const defLED TL1_Yellow; 	//LED2 → 00000100
+extern const defLED TL1_Green;  	//LED3 → 00001000
+extern const defLED TL2_Red;     	//LED4
+extern const defLED TL2_Yellow;  	//LED5
+extern const defLED TL2_Green;  	//LED6
+extern const defLED TL3_Red;    	//LED7
+extern const defLED TL3_Yellow; 	//LED8
+extern const defLED TL3_Green;		//LED9
+extern const defLED TL4_Red;		//LED10
+extern const defLED TL4_Yellow;		//LED11
+extern const defLED TL4_Green;		//LED12
+extern const defLED PL1_Red;     	//LED13 & LED14
+extern const defLED PL1_Green;  	//LED15 & LED16
+extern const defLED PL1_Blue;   	//LED17 & LED18
+extern const defLED PL2_Red;    	//LED19 & LED20
+extern const defLED PL2_Green; 		//LED21 & LED22
+extern const defLED PL2_Blue;  		//LED23 & LED24
+
+#endif /* INC_LEDS_H_ */

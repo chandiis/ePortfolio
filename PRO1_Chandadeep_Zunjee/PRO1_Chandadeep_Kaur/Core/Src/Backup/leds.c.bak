@@ -1,0 +1,34 @@
+/*
+ * struct.c
+ *
+ *  Created on: 8 Dec 2025
+ *      Author: kaur_
+ */
+
+#include <stdint.h>
+#include "stm32l4xx_hal.h"
+#include "spi.h"
+#include "FreeRTOS.h"
+#include "gpio.h"
+#include "functions.h"
+#include <stdbool.h>
+#include "leds.h"
+
+const defLED TL1_Red 	= {2, 0};   //Shift Register 1 and Shift with 0 bits
+const defLED TL1_Yellow = {2, 1}; 	//LED2
+const defLED TL1_Green 	= {2, 2};	//LED3
+const defLED TL2_Red 	= {1, 0};   //LED4
+const defLED TL2_Yellow = {1, 1};  	//LED5
+const defLED TL2_Green 	= {1, 2};  	//LED6
+const defLED TL3_Red 	= {0, 0};   //LED7, Shift Register 3 and Shift with 0 bits
+const defLED TL3_Yellow = {0, 1}; 	//LED8
+const defLED TL3_Green 	= {0, 2};  	//LED9
+const defLED TL4_Red 	= {0, 3};   //LED10
+const defLED TL4_Yellow = {0, 4};  	//LED11
+const defLED TL4_Green 	= {0, 5};   //LED12
+const defLED PL1_Red 	= {2, 3};	//LED13 & LED14
+const defLED PL1_Green 	= {2, 4};	//LED15 & LED16
+const defLED PL1_Blue 	= {2, 5};	//LED17 & LED18
+const defLED PL2_Red 	= {1, 3};   //LED19 & LED20
+const defLED PL2_Green 	= {1, 4}; 	//LED21 & LED22
+const defLED PL2_Blue 	= {1, 5};  	//LED23 & LED24

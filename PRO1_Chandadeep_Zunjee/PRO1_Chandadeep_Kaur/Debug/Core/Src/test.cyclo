@@ -1,0 +1,6 @@
+../Core/Src/test.c:19:6:test_shift_register	3
+../Core/Src/test.c:46:6:test_pedestrian_lights	1
+../Core/Src/test.c:56:6:test_trafficlight	1
+../Core/Src/test.c:77:6:test_switch_inputs	8
+../Core/Src/test.c:106:6:test_car_presence	3
+../Core/Src/test.c:125:6:Test_program	1
