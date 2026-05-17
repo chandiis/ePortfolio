@@ -17,7 +17,7 @@ The complete project source code is available in the file `TrafficLightProject.z
 The project is a text-based interactive fiction, which  allows the player to make choices and interact with the story through input and output of text, switches and a button. The project is mainly developed in C code and executed on the DTEK-V board.
 
 **Source Code:**  
-The complete project source code is available in the file `MiniProject.zip`. Download and extract the ZIP file to access the code and project files.
+The complete project source code is available in the file `LifeWithAdventure.zip`. Download and extract the ZIP file to access the code and project files. To view the code on the browser, simply click on the folder `LifeWithAdventure`. 
 
 ## How to Access the Projects
 
