@@ -1,0 +1,1 @@
+npc new_npc(int room, char* name, char* dialogue[], int shop);

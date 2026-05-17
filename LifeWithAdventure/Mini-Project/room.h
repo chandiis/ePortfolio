@@ -1,0 +1,1 @@
+room new_room(int id, char* name, char* intro, int has_enemy, int has_npc);
