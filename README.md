@@ -23,5 +23,5 @@ The complete project source code is available in the file `LifeWithAdventure.zip
 
 1. Download the ZIP file for the project you want to view.
 2. Extract the ZIP file.
-3. Open the extracted folder in your preferred IDE or code editor (e.g., :contentReference[oaicite:0]{index=0}) for the Mini Project, however, for the Traffic Light Project, you must download `STM32Cube`.
+3. Open the extracted folder in your preferred IDE or code editor for the Mini Project, however, for the Traffic Light Project, you must download `STM32Cube`.
 4. Follow any included instructions to build and run the project.
